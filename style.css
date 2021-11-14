@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 370px;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    color: darkorange;
+    background-color: gray;
+    border-radius: 20%;
+    border: 2px solid darkorange;
+}
+
+.username {
+    width: 200px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+
+/* .container-data {
+    display: flex;
+} */
