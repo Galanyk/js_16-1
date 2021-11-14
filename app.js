@@ -1,2 +1,2 @@
-const listsUsers = new ListsUsers('container');
+const listsUsers = new ListsUsers('container-user');
 const getData = new GetData('container-data');

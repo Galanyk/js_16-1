@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.container-user {
     display: flex;
     width: 370px;
     flex-wrap: wrap;
@@ -12,20 +12,35 @@
     width: 100px;
     height: 30px;
     color: darkorange;
-    background-color: gray;
+    background-color: rgb(68, 66, 66);
     border-radius: 20%;
-    border: 2px solid darkorange;
+    border: 2px solid rgb(255, 153, 0);
 }
 
 .username {
     width: 200px;
-    margin-right: 50px;
-    margin-bottom: 10px;
-    /* display: flex;
-    justify-content: space-between; */
+    margin-right: 30px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    color: orange;
+    font-weight: 600;
 }
 
-
-/* .container-data {
+.container {
     display: flex;
-} */
+    background-image: url(../js_16-1/image/mouse.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px;
+}
+
+.container-data {
+    width: 900px;
+}
+
+.user-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
