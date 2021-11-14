@@ -44,6 +44,10 @@ class ListsUsers {
     };
 
     onButtonClick = (userId) => {
+        if (userId.target.className !== ListsUsers.CLASSES.BUTTON) {
+            return
+        };
+
         fetch(`https://jsonplaceholder.typicode.com/posts?userId=${userId.target.id}`)
             .then((response) => response.json())
             .then((data) => {
