@@ -11,8 +11,8 @@ class ListsUsers {
         USERS: {
             getUser: "/users",
         },
-        TODOS: {
-            getUserTodo: "/posts?userId=",
+        POSTS: {
+            getUserPost: "/posts?userId=",
         },
     };
     _mainContainer = null;
@@ -51,7 +51,7 @@ class ListsUsers {
             return
         };
 
-        fetch(ListsUsers.API + ListsUsers.ENVIRONMENT.TODOS.getUserTodo + `${userId.target.id}`)
+        fetch(ListsUsers.API + ListsUsers.ENVIRONMENT.POSTS.getUserPost + `${userId.target.id}`)
             .then((response) => response.json())
             .then((data) => {
                 if (getData.getContainer().children.length !== 0) {
